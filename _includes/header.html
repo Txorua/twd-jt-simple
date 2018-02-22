@@ -5,7 +5,7 @@
   <nav class="header__nav--global">
       <ul class="header__nav-links--global">
         {% for link in site.data.main-menu %}
-        <li class="header__nav-link--global"><a href="{{ link.url }}">{{ link.url }}</a></li>
+        <li class="header__nav-link--global"><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
   </nav>
