@@ -2,6 +2,8 @@
   HEader Global
 */
 .header--global {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding: 2rem 0;
   background-color: $header-bg-color;
   color: $header-text-color;
@@ -21,12 +23,23 @@
       color: $header-bg-color;
     }
     &:last-of-type {
-      color: $white; 
+      color: $white;
     }
   }
 }
 
-.header__cta {
+.header__cta--global {
   display: none;
   text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  .header__nav-links--global {
+    a:last-of-type {
+      display: none;
+    }
+  }
+  .header__cta {
+    display: block;
+  }
 }
