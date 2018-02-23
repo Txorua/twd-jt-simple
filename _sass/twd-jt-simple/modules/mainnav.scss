@@ -16,15 +16,21 @@
 }
 .mainnav__nav--is-visible {
   max-height: 16em;
-  padding: 1rem;
 }
 .mainnav__nav--not-visible {
   max-height: 0;
-  padding: 0;
 }
 
 .mainnav__item {
-  padding: 1em;
+  border-bottom: solid 1px $darkgray;
+  &:first-child {
+    margin-top: 2em;
+    border-top: solid 1px $darkgray;
+  }
+  &:last-child {
+    margin-bottom: 1.5em;
+  }
+
   a {
     text-decoration: none;
     color: $header-text-color;
