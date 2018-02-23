@@ -6,7 +6,7 @@
       </picture>
     </a>
   </p>
-  <nav>
+  <nav class="mainnav">
     <p class="mainnav__hamburger">
       <a href="#">
         <svg width="24px" height="21px" viewBox="0 0 24 21" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@
         </svg>
       </a>
     </p>
-    <ul class="mainnav">
+    <ul class="mainnav__nav">
       {% for link in site.data.main-menu.items %}
       <li class="mainnav__item"><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}

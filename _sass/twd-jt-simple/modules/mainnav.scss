@@ -1,10 +1,16 @@
 .mainnav {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid: 2/-1;
 }
 
 .mainnav__hamburger {
 
+}
+
+.mainnav__nav {
+  display: flex;
+  justify-content: center;
 }
 
 .mainnav__item {
