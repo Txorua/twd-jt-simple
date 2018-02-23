@@ -3,13 +3,14 @@
 */
 
 .siteheader {
-  padding: 2rem 5%;
+  padding: 1rem 5%;
+  position: relative;
   background-color: $header-bg-color;
   color: $header-text-color;
 }
 
 .siteheader__logo {
-  display: inline-block;
+  
 }
 
 
