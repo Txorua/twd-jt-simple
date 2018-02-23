@@ -16,6 +16,9 @@
 .header__nav-links--global {
   display: flex;
   justify-content: space-around;
+}
+
+.header__link--global {
   a {
     text-decoration: none;
     color: $header-text-color;
@@ -34,12 +37,12 @@
 }
 
 @media screen and (min-width: 37.5em) {
-  .header__nav-links--global {
+  .header__link--global {
     a:last-of-type {
       display: none;
     }
   }
-  .header__cta {
+  .header__cta--global {
     display: block;
   }
 }
