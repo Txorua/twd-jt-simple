@@ -1,5 +1,15 @@
 .mainbanner {
+  padding: 3em 0;
   background-image: url(/assets/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+}
+
+.mainbanner__title {
+  font-size: 2.0625rem;
+}
+
+.mainbanner__tagline {
+  font-size: 1.875rem;
 }
