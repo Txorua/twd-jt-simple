@@ -25,4 +25,7 @@
     </ul>
     <p class="mainnav__cta"><a href="/contacto">Contacto</a></p>
   </nav>
+  {% if page.url == '/' %}
+  {% include mainbanner.html %}
+  {% endif %}
 </header>
