@@ -1,16 +1,20 @@
 .mainnav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column: 2/-1;
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+  text-transform: uppercase;
 }
 
 .mainnav__hamburger {
-
+  float: right;
 }
 
 .mainnav__nav {
+  height: 0;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  overflow: hidden;
+  text-align: center;
 }
 
 .mainnav__item {
@@ -35,6 +39,14 @@
 }
 
 @media screen and (min-width: 37.5em) {
+
+  .mainnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/-1;
+  }
+
+
   .mainnav__hamburger {
     display: none;
   }
