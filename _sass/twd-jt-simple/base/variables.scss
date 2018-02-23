@@ -16,10 +16,14 @@ $darkgray: #333;
 $lightgray: #919191;
 
 
-$highlight-color: $orange;
+
 $body-bg-color: $white;
-$text-color: $darkgray;
+$body-text-color: $darkgray;
+$body-link-text-color: $orange;
+$body-link-text-color-hover: $lightgray;
+
 $header-bg-color: $black;
 $header-text-color: $white;
-$link-text-color: $orange;
-$link-text-color-hover: $lightgray;
+$header-link-text-color: $white;
+$header-link-text-color-hover: $lightgray;
+$header-link-text-colot-current: $orange;
