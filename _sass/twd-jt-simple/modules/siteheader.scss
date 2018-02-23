@@ -8,15 +8,15 @@
   color: $header-text-color;
 }
 
+.siteheader__logo {
+  display: inline-block;
+}
+
 
 @media screen and (min-width: 37.5em) {
   .siteheader {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 2rem 0;
-  }
-
-  .siteheader__logo {
-    text-align: center;
   }
 }
