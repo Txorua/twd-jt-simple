@@ -12,13 +12,14 @@
 .mainnav__nav {
   text-align: center;
   background-color: $header-bg-color;
+  transition: max-height 0.5s;
 }
 .mainnav__nav--is-visible {
-  height: auto;
+  max-height: 16em;
   padding: 1rem;
 }
 .mainnav__nav--not-visible {
-  height: 0;
+  max-height: 0;
   padding: 0;
 }
 
