@@ -12,6 +12,7 @@
 .mainnav__nav {
   background-color: $header-bg-color;
   transition: max-height 0.5s;
+  overflow: hidden;
 }
 .mainnav__nav--not-visible {
   max-height: 0;
