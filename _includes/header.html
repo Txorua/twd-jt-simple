@@ -1,13 +1,17 @@
 <header class="header--global">
-  <div class="header__logo--global">
-
-  </div>
+  <p class="header__logo--global">
+    <a href="/">
+      <picture>
+        <img src="/assets/images/logo.svg" alt="{{ site.title }}">
+      </picture>
+    </a>
+  </p>
   <nav class="header__nav--global">
       <ul class="header__nav-links--global">
         {% for link in site.data.main-menu.items %}
-        <li class="header__nav-link--global"><a href="{{ link.url }}">{{ link.title }}</a></li>
+        <li class="header__link--global"><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
   </nav>
-
+  <p class="header__cta"><a href="/contacto">Contacto</a></p>
 </header>
