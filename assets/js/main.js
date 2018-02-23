@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   window.document.documentElement.className += ' enhanced'
 
-  var nav = document.querySelector('.mainnav')
+  var nav = document.querySelector('.mainnav__nav')
   var navToggle = document.querySelector('.mainnav__hamburger')
 
   if (navToggle) {
