@@ -96,6 +96,10 @@
       border: solid 1px $border-dark;
       color:$header-link-text-color;
       text-decoration: none;
+
+      &:hover {
+        color: $header-link-text-color-hover;
+      }
     }
   }
 }
