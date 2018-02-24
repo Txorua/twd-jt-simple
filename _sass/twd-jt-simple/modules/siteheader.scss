@@ -17,6 +17,10 @@
   .siteheader {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .siteheader__logo {
     padding: 2rem 0;
+    text-align: center;
   }
 }
