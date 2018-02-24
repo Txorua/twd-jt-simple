@@ -13,3 +13,7 @@
 .mainbanner__tagline {
   font-size: 1.875rem;
 }
+
+@media screen and (min-width: $bp-small) {
+  grid-column: 1/-1;
+}
