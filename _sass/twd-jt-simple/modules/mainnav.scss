@@ -39,6 +39,7 @@
 
   a {
     text-decoration: none;
+    transition: all 0.5s;
     color: $header-link-text-color;
     &:hover {
       color: $header-link-text-color-hover;
@@ -94,8 +95,10 @@
     a {
       padding: 0.5em 0.65em;
       border: solid 1px $border-dark;
+      border-radius: 0.25em;
       color:$header-link-text-color;
       text-decoration: none;
+      transition: all 0.5s;
 
       &:hover {
         border-color: $header-link-text-color-hover;
