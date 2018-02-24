@@ -1,5 +1,5 @@
 .mainnav {
-  padding: 1em 5%;
+  padding: 0 5%;
   overflow: hidden;
   text-transform: uppercase;
 }
@@ -15,7 +15,7 @@
 
 .mainnav__nav {
   background-color: $header-bg-color;
-  transition: max-height 0.5s;
+  transition: all 0.5s;
   overflow: hidden;
 }
 .mainnav__nav--not-visible {
@@ -23,6 +23,7 @@
 }
 .mainnav__nav--is-visible {
   max-height: 16em;
+  padding: 1em 0;
 }
 
 .mainnav__item {
