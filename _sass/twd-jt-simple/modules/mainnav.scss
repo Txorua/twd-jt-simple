@@ -90,5 +90,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    a {
+      padding: 0.5em 0.65em;
+      border: solir 1px $header-link-text-color-hover;
+      color:$header-link-text-color;
+      text-decoration: none;
+    }
   }
 }
