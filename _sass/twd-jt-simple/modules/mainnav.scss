@@ -55,21 +55,32 @@
 
   .mainnav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column: 2/-1;
   }
 
+  .mainnav__nav--not-visible,
+  .mainnav__nav--is-visible {
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
 
   .mainnav__hamburger {
     display: none;
   }
 
   .mainnav__item {
+    margin: 0;
+    padding: 0 0.5em;
+    border: none;
     &:last-of-type {
       display: none;
     }
   }
   .mainnav__cta {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
