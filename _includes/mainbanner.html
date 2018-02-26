@@ -1,7 +1,8 @@
-<div class="mainbanner">
+{% assign banner = site.banners[0] %}
+<div class="mainbanner" style="background-image: url(/assets/images/large/bacground.jpg)">
   <div class="mainbanner__content">
-    <h1 class="mainbanner__title">{{ site.title }}</h1>
-    <h2 class="mainbanner__tagline">{{ site.description }}</h2>
+    <h1 class="mainbanner__title">{{ banner.title }}</h1>
+    <h2 class="mainbanner__tagline">{{ banner.tagline }}</h2>
     <p class="mainbanner__cta"><a href="/trabajos">Portfolio</a></p>
   </div>
 </div>
