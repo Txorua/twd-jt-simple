@@ -1,6 +1,7 @@
 {% assign banner = site.banners[0] %}
 {% assign image = banner.image | split: '/' | last %}
-<div class="mainbanner" style="background-image: url(/assets/images/large/{{ image }})">
+<div class="mainbanner">
+  <div class="mainbanner__image" style="background-image: url(/assets/images/large/{{ image }})"></div>
   <div class="mainbanner__content">
     <h1 class="mainbanner__title">{{ banner.title }}</h1>
     <h2 class="mainbanner__tagline">{{ banner.tagline }}</h2>

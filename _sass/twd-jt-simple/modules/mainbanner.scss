@@ -1,9 +1,18 @@
 .mainbanner {
+  display: grid;
+}
+
+.mainbanner__content {
   padding: 3em 5%;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.mainbanner__image {
+  grid-column: 1/-1;
   background-image: url(/assets/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
   filter: grayscale(100%);
 }
 
