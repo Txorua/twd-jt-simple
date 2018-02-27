@@ -2,4 +2,8 @@
 layout: default
 ---
 
+{% if page.into %}
+<div class="page__intro">{{ page.intro }}</div>
+{% endif %}
+
 {{ content }}
