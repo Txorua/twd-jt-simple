@@ -1,8 +1,8 @@
 /**
-  Breakponts
+  Media Queries
 */
 
-$bp-list: "under-small" "(max-width: 37.49em)" false,
+$mq-list: "under-small" "(max-width: 37.49em)" false,
           "small"       "(min-width: 37.5em)"  true,
           "medium"      "(min-width: 47.5em)"  true,
           "large"       "(min-width: 64em)"    true,
