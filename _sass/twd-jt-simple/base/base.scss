@@ -9,3 +9,49 @@ body {
   background-image: url(/assets/images/seamless_paper_texture.png);
   color: $color-main;
 }
+
+/**
+  Typography
+*/
+h1 { font-size: 2.0625rem; }
+h2 { font-size: 1.5625rem; }
+h3 { font-size: 1.3125rem; }
+h4, h5, h6 { font-size: 1rem; }
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+}
+h1,h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 1rem;
+  max-width: 48em;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+hr { max-width: 48em; }
+
+ul, ol {
+  width: 80%;
+  list-style: none;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+ol {
+  list-style: decimal;
+}
+
+dl {
+  font-weight: bold;
+}
+
+abbr {
+  hyphens: manual;
+}
+
+.caps {
+  font-variant: all-small-caps;
+}
