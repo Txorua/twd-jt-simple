@@ -52,7 +52,7 @@
   //text-align: center;
 }
 
-@media screen and (min-width: $bp-small) {
+@include mq(medium) {
 
   .mainnav {
     //display: grid;

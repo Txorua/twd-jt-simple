@@ -2,36 +2,46 @@
   Breakponts
 */
 
-$bp-small: 48em;
+$bp-list: "under-small" "(max-width: 37.49em)" false,
+          "small"       "(min-width: 37.5em)"  true,
+          "medium"      "(min-width: 47.5em)"  true,
+          "large"       "(min-width: 64em)"    true,
+          "xlarge"      "(min-width: 71.25em)" true;
 
 /**
   Typography
 */
 
-$base-font-family: 'Muli', sans-serif;
+$base-font-family: 'Muli', Hekvetica, Arial, sans-serif;
 
 /**
   Colors
 */
 
 $white: #fff;
-$black: #171717;
-$orange: #eba400;
-$lightorange: #ffbe29;
-$darkgray: #333;
-$lightgray: #919191;
+
+$color-main-dark2:    #171717;
+$color-main-dark1:    #242424;
+$color-main:          #333333;
+$color-main-light1:   #919191;
+$color-main-light2:   #b9b8ac;
+$color-main-light3:   #ECECEC;
+
+$color-accent:        #eba400;
+$color-accent-light:  #ebb028;
+$color-accent-dark:   #b37d00;
 
 
 
 $body-bg-color: $white;
-$body-text-color: $darkgray;
-$body-link-text-color: $orange;
-$body-link-text-color-hover: $lightgray;
+$body-text-color: $color-main;
+$body-link-text-color: $color-accent;
+$body-link-text-color-hover: $color-accent-light;
 
-$header-bg-color: $black;
+$header-bg-color: $color-main-dark2;
 $header-text-color: $white;
 $header-link-text-color: $white;
-$header-link-text-color-hover: $lightgray;
-$header-link-text-colot-current: $orange;
+$header-link-text-color-hover: $color-main-light2;
+$header-link-text-colot-current: $color-accent;
 
-$border-dark: $darkgray;
+$border-dark: $color-main-dark1;

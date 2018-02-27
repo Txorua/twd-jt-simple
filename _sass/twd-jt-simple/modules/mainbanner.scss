@@ -36,7 +36,7 @@
   text-shadow: 3px 5px 5px rgba($black, 0.6);
 }
 
-@media screen and (min-width: $bp-small) {
+@include mq(medium) {
   .mainbanner {
     /*grid-column: 1/-1;
     padding: 6em 5%*/
