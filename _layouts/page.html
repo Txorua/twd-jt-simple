@@ -2,8 +2,16 @@
 layout: default
 ---
 
-{% if page.intro %}
-<div class="page__intro">{{ page.intro }}</div>
-{% endif %}
-
-{{ content }}
+<article class="page">
+  <div class="page__content">
+    {% if page.heading %}
+    <header>
+      <h1>{{ page.heading }}</h1>
+    </header>
+    {% endif %}
+    {% if page.intro %}
+    <div class="page__intro">{{ page.intro }}</div>
+    {% endif %}
+    {{ content }}
+  </div>
+</article>
