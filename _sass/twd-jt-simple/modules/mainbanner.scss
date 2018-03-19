@@ -36,6 +36,15 @@
   text-shadow: 3px 5px 5px rgba($color-main-dark2, 0.6);
 }
 
+.mainbanner__cta {
+  padding: 0.5em 1em;
+  border: solid 1px $white;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,1);
+  background: @include filter-gradient(#ffffff, #ededed, vertical);
+  background: @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%));
+}
+
 @include mq(medium) {
   .mainbanner {
     /*grid-column: 1/-1;
