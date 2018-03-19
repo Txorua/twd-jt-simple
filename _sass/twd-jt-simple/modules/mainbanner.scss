@@ -42,7 +42,12 @@
     border: solid 1px $white;
     border-radius: 12px;
     background-color: $white;
-    background-image: linear-gradient($white, $color-main-light3);   
+    background-image: linear-gradient($white, $color-main-light3);
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      background-image: linear-gradient($white, $color-main-light2);
+    }
   }
 }
 
