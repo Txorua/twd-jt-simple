@@ -27,13 +27,14 @@
   margin-bottom: 3rem;
   font-size: 2.0625rem;
   font-weight: 700;
-  text-shadow: 3px 5px 5px rgba($color-main-dark2, 0.6);
+  text-shadow: 3px 5px 5px rgba($color-main-dark2, 1);
 }
 
 .mainbanner__tagline {
   margin-bottom: 1.5rem;
   font-size: 1.875rem;
-  text-shadow: 3px 5px 5px rgba($color-main-dark2, 0.6);
+  text-shadow: 3px 5px 5px rgba($color-main-dark2, 1);
+  text-transform: capitalize;
 }
 
 .mainbanner__cta {
