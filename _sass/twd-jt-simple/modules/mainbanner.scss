@@ -40,9 +40,8 @@
   padding: 0.5em 1em;
   border: solid 1px $white;
   border-radius: 12px;
-  background-color: rgba(255,255,255,1);
-  background: @include filter-gradient(#ffffff, #ededed, vertical);
-  background: @include background-image(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%));
+  background-color: $white;
+  background-image: linear-gradient($white, $color-main-light3); 
 }
 
 @include mq(medium) {
