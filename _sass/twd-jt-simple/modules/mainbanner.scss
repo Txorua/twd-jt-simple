@@ -37,11 +37,13 @@
 }
 
 .mainbanner__cta {
-  padding: 0.5em 1em;
-  border: solid 1px $white;
-  border-radius: 12px;
-  background-color: $white;
-  background-image: linear-gradient($white, $color-main-light3); 
+  a {
+    padding: 0.5em 1em;
+    border: solid 1px $white;
+    border-radius: 12px;
+    background-color: $white;
+    background-image: linear-gradient($white, $color-main-light3);   
+  }
 }
 
 @include mq(medium) {
