@@ -1,5 +1,5 @@
-{% assign banners = site.banners | sort: 'order' %}
-{% assign image = banner[0].image | split: '/' | last %}
+{% assign banner = site.banners | sort: 'order' | first %}
+{% assign image = banner.image | split: '/' | last %}
 <div class="mainbanner">
   <div class="mainbanner__image" style="background-image: url(/assets/images/large/{{ image }}"></div>
   <div class="mainbanner__content">
