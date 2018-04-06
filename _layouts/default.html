@@ -21,17 +21,6 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:100,400,700" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="/assets/js/main.js"></script>
-
-    <script type="text/javascript">
-      var swsource = "/sw.js";
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js").then(function(registration) {
-          console.log("Service Worker registration successful with scope: ", registration.scope);
-        }).catch(function(err) {
-          console.log("Service Worker registration failed: ", err);
-        });
-      }
-    </script>
   </head>
   <body>
 
@@ -40,6 +29,8 @@
     <main role="main">
       {{ content }}
     </main>
+
+    {% include service-worker.html %}
 
   </body>
 </html>
