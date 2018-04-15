@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 })
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/assets/js/sw.js', { scope: '/' })
+  navigator.serviceWorker.register('/assets/js/sw.js', { scope: '../../' })
     .then(function (reg) {
       console.log(reg.installing)
     })
