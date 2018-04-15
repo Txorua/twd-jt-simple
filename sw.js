@@ -6,7 +6,10 @@ self.addEventListener('install', function (event) {
         '/assets/js/app.js',
         '/assets/images/**/*',
         '/blog',
-        '/blog/*'
+        '/blog/*',
+        '/acerca',
+        '/trabajos',
+        '/contacto'
       ])
     })
   )
