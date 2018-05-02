@@ -20,14 +20,4 @@ document.addEventListener('DOMContentLoaded', function (event) {
         e.preventDefault()
       }, false)
   }
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js', { scope: '/' })
-      .then(function (reg) {
-        console.log(reg.installing)
-      })
-      .catch(function (err) {
-        console.log('Service Worker installation failed. Error: ' + err)
-      })
-  }
 })
